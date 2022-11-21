@@ -4,6 +4,12 @@
 * enclosed in parantheses rather than brackets
 * save the cost of building a list with a million items
 
+e.g:
+```python
+symbols = '$¢£¥€¤'
+array.array('I', (ord(symbol) for symbol in symbols))
+```
+
 # Tuples
 * immutable lists
 * records with no field names
@@ -16,5 +22,17 @@ The % formatting operator understands tuples and treats each item as a separate 
 ## Unpacking
 The for loop knows how to retrieve the items of a tuple separately. This is called “unpacking.” When we are not interested in an item, we assign it to _, a dummy variable.
 
+e.g:
+```python
+traveler_ids = [('USA', '31195855'), ('BRA', 'CE342567'), ('ESP', 'XDA205856')]
+for passport in sorted(traveler_ids):
+  print('%s/%s' % passport)
+  
+...
+BRA/CE342567
+ESP/XDA205856
+USA/31195855  
+```
+
 # PEP
-PEP (Python Enhancement Proposal):A PEP is a technical design doc for the Python community which describes a new feature for the language itself, its processes, or its environment.
+A PEP (Python Enhancement Proposal) is a technical design doc for the Python community which describes a new feature for the language itself, its processes, or its environment.
