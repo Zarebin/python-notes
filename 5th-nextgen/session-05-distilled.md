@@ -63,9 +63,10 @@ Specifying [] for an empty list is more idiomatic. list is the name of the class
 
 
 
-#Tuples
+# Tuples
 Tuples are immutable and they use as record you can pack a collection of values into an
 immutable object known as a tuple. you can create tuples like this :
+
 ```python
 a = ()
 b = (item,)
@@ -73,9 +74,9 @@ b = (item,)
 # 0-tuple (empty tuple)
 # 1-tuple (note the trailing comma)
 
-**Although tuples support most of the same operations as lists**
+** Although tuples support most of the same operations as lists **
 
-##Note:
+## Note:
 you cannot replace, delete, or append new
 elements to an existing tuple. A tuple is best viewed as a single immutable
 object that consists of several parts, not as a collection of distinct objects
@@ -88,43 +89,44 @@ item (the name).
 
 
 
-#Sets
+# Sets
 A set is an unordered collection of unique objects.
 you can make a set of numbers, strings, or tuples. However, you
 can’t make a set containing lists.To create an empty set, use set() with no arguments.
 
-####exp:
+#### exp:
 ```python
 set1 =  {'CAT', 'IBM', 'MSFT', 'HPE'}
 ```
-##Note:
+## Note:
 t.add('DIS') 
 # Add a single item
 s.update({'JJ', 'GE', 'ACME'})
 # Adds multiple items to s
 
-**An item can be removed using remove() or discard()**
+** An item can be removed using remove() or discard() **
 
 
 
-#Dictionaries
+# Dictionaries
 
 A dictionary is a mapping between keys and values. You create a dictionary
 by enclosing the key-value pairs, each separated by a colon, in curly braces
 ({ }), like this:
+
 ```python
 s = {
 'name' : 'GOOG',
 'shares' : 100,'price' : 490.10
 }
 ```
-***An empty dictionary is created in one of two ways:***
+*** An empty dictionary is created in one of two ways: ***
 prices = {}
 # An empty dict
 prices = dict()
 # An empty dict
 
-####To access members of a dictionary, use the indexing operator as follows:
+#### To access members of a dictionary, use the indexing operator as follows:
 name = s['name']
 
 A dictionary is a useful way to define an object that consists of named
@@ -152,9 +154,10 @@ keys_list = list(dict1) ==>  #["benz", "bmw"]
 Alternatively, you can obtain the keys using dict.keys():
 keys_list = dict1.keys()  ==>  #dict_keys(['x', 'y'])
 
-##Notes:
+## Notes:
 To obtain the values stored in a dictionary, use the dict.values()
 method. To obtain key-value pairs, use dict.items().
+
 ```python
 values_list = dict1.values()
 
