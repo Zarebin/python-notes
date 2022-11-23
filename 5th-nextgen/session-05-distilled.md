@@ -71,12 +71,12 @@ immutable object known as a tuple. you can create tuples like this :
 a = ()
 b = (item,)
 ```
-# 0-tuple (empty tuple)
-# 1-tuple (note the trailing comma)
+### 0-tuple (empty tuple)
+### 1-tuple (note the trailing comma)
 
 ** Although tuples support most of the same operations as lists **
 
-## Note:
+### Note:
 you cannot replace, delete, or append new
 elements to an existing tuple. A tuple is best viewed as a single immutable
 object that consists of several parts, not as a collection of distinct objects
@@ -98,11 +98,11 @@ can’t make a set containing lists.To create an empty set, use set() with no ar
 ```python
 set1 =  {'CAT', 'IBM', 'MSFT', 'HPE'}
 ```
-## Note:
+### Note:
 t.add('DIS') 
-# Add a single item
+#### Add a single item
 s.update({'JJ', 'GE', 'ACME'})
-# Adds multiple items to s
+#### Adds multiple items to s
 
 ** An item can be removed using remove() or discard() **
 
@@ -122,9 +122,9 @@ s = {
 ```
 *** An empty dictionary is created in one of two ways: ***
 prices = {}
-# An empty dict
+#### An empty dict
 prices = dict()
-# An empty dict
+#### An empty dict
 
 #### To access members of a dictionary, use the indexing operator as follows:
 name = s['name']
@@ -145,7 +145,7 @@ This particular sequence of steps can also be performed more compactly
 using the get() method:
 
 p = prices.get('IBM', 0.0)
-# prices['IBM'] if it exists, else 0.0
+#### prices['IBM'] if it exists, else 0.0
 
 To obtain a list of dictionary keys, convert a dictionary to a list:
 dict1 = {"benz":33, "bmw":45}
@@ -154,7 +154,7 @@ keys_list = list(dict1) ==>  #["benz", "bmw"]
 Alternatively, you can obtain the keys using dict.keys():
 keys_list = dict1.keys()  ==>  #dict_keys(['x', 'y'])
 
-## Notes:
+### Notes:
 To obtain the values stored in a dictionary, use the dict.values()
 method. To obtain key-value pairs, use dict.items().
 
