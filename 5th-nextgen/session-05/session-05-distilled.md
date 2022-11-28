@@ -59,3 +59,9 @@ names = []
 names = list() 
 ```
 Specifying [] for an empty list is more idiomatic. list is the name of the class associated with the list type.
+
+
+
+
+
+
