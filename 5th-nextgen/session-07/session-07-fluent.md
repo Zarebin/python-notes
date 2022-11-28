@@ -15,7 +15,7 @@ def main():
 	print(f'{"":15} | {"latitude":>9} | {"longitude":>9}')
 	for name, _, _, (lat, lon) in metro_areas:
 		if lon <= 0:
-		print(f'{name:15} | {lat:9.4f} | {lon:9.4f}')
+			print(f'{name:15} | {lat:9.4f} | {lon:9.4f}')
 ```
 
 **Notes:**
@@ -33,7 +33,7 @@ The target of an unpacking assignment can also be a list (but it is rare). E.g i
 **Note**
 Single-item tuples must be written with a trailing comma.
 ```python
-(record,) = query_returning_single_row()s
+(record,) = query_returning_single_row()
 ```
 
 # Pattern Matching with Sequences
