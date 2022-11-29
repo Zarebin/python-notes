@@ -1,4 +1,4 @@
-##Iteration and Looping
+## Iteration and Looping
 
 The most widely used looping construct is the for statement that iterates
 over a collection of items. One common form of iteration is to loop over all
@@ -28,7 +28,7 @@ print(f'2 to the {n} power is {2**n}')
 
 ```
 
-###Note:
+### Note:
 The object created by range() computes the values it represents on
 demand when lookups are requested. Thus, it’s efficient to use even with a
 large range of numbers.
@@ -63,7 +63,7 @@ for key in prices:
 	print(key, '=', prices[key])
 ```
 
-##Functions
+## Functions
 
 Use the def statement to define a function,To invoke a function, use its name followed by its arguments in
 parentheses, for __example__ **result = remainder(37, 15)**.
@@ -77,7 +77,7 @@ def remainder(a, b):
 	return r
 ```
 
-###Note:
+### Note:
 It is common practice for a function to include a documentation string as
 the first statement. This string feeds the help() command and may be used
 by IDEs and other development tools to assist the programmer. For
@@ -127,7 +127,7 @@ def connect(hostname, port, timeout=300):
 ```
 
 
-##Exceptions
+## Exceptions
 
 If an error occurs in your program, an exception is raised and a traceback
 message appears:
@@ -163,7 +163,7 @@ error are placed in err and control passes to the code in the except block. If
 some other kind of exception is raised, the program crashes as usual. If no
 errors occur, the code in the except block is ignored.
 
-###Note:
+### Note:
 The raise statement is used to signal an exception. You need to give the
 name of an exception.
 
