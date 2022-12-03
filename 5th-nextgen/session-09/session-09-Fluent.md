@@ -67,4 +67,4 @@ The stride can also be negative, returning items in reverse.
 
 ### Notes
 * Object slicing is useful because it lets you assign names to slices, just like spreadsheets allow naming of cell ranges.
-* The notation a:b:c is only valid within [] when used as the indexing or subscript operator.
+* The notation ```python a:b:c``` is only valid within [] when used as the indexing or subscript operator.
