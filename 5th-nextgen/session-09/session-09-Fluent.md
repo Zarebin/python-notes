@@ -49,7 +49,7 @@ just subtract stop - start.
 ```
 
 ## Slice Objects
-s[a:b:c] can be used to specify a stride or step c, causing the resulting slice to skip items.
+```python s[a:b:c]``` can be used to specify a stride or step c, causing the resulting slice to skip items.
 The stride can also be negative, returning items in reverse. 
 
 **e.g:**
