@@ -1,5 +1,5 @@
 # Multidimensional Slicing and Ellipsis
-[] operator can take multiple indexes or slices separated by commas. __getitem__ and __setitem__ special methods that handle the [] operator, receive the indices as a tuple.
+[] operator can take multiple indexes or slices separated by commas. \__getitem__ and \__setitem__ special methods that handle the [] operator, receive the indices as a tuple.
 e.g:
 ```python
 a[i, j] --> a.__getitem__((i, j))
@@ -99,16 +99,16 @@ for i in range(3):
 
 # Augmented Assignment with Sequences
 They behave quite differently, depending on the first operand.  
-The special method that makes += work is __iadd__ (in-place addition). If __iadd__ is not implemented, Python falls back to calling __add__. e.g:
+The special method that makes += work is \__iadd__ (in-place addition). If \__iadd__ is not implemented, Python falls back to calling \__add__. e.g:
 ```python
 >>> a += b
 ```
-If a implements __iadd__, that will be called. In the case of mutable sequences, a will be changed in place.  
+If a implements \__iadd__, that will be called. In the case of mutable sequences, a will be changed in place.  
 Otherwise, the expression has the same effect as a = a + b : a + b is evaluated first, producing a new object, bound to a.  
-The identity of the object may or may not change and it depends on the availability of __iadd__.  
-Generally, it is a good bet that __iadd__ is implemented.  
+The identity of the object may or may not change and it depends on the availability of \__iadd__.  
+Generally, it is a good bet that \__iadd__ is implemented.  
 
-*= is implemented via __imul__.
+*= is implemented via \__imul__.
 ```python
 l = [1, 2, 3]
 l *= 2
