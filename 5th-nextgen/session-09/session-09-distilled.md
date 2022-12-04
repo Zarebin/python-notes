@@ -23,20 +23,18 @@ if __name__ == '__main__':
     main(sys.argv) 
 ```
 
-run in two different ways:
-1. 
+run in two different ways:  
+1. len(argv) is 1 so it gets input from user.
 ```python
 python readport.py
 Enter filename: portfolio.csv
 ... 
 ```
-len(argv) is 1 so it gets input from user.
 
-2. 
+2. len(argv) is 2 so `argv[1]` will be the filename which will be read. 
 ```python
 bash % python readport.py portfolio.csv 
 ```
-len(argv) is 2 so `argv[1]` will be the filename.  
 
 The following example leads to `SystemExit` because len(argv) is more than 2:
 ```python
