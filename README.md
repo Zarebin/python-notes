@@ -13,3 +13,6 @@
 * [Session 9, Fluent](5th-nextgen/session-09/session-09-fluent.md)
 * [Session 10, Distilled](5th-nextgen/session-10/session-10-distilled.md)
 * [Session 10, Fluent](5th-nextgen/session-10/session-10-fluent.md)
+* [Session 11, Distilled](5th-nextgen/session-11/session-11-distilled.md)
+
+* [Session 11, Fluent](5th-nextgen/session-11/session-11-fluent.md)
