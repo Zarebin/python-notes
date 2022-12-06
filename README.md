@@ -16,3 +16,6 @@
 * [Session 11, Distilled](5th-nextgen/session-11/session-11-distilled.md)
 
 * [Session 11, Fluent](5th-nextgen/session-11/session-11-fluent.md)
+* [Session 12, Distilled](5th-nextgen/session-12/session-12-distilled.md)
+* [Session 12, Fluent](5th-nextgen/session-12/session-12-Fluent.md)
+
