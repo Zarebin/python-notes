@@ -14,5 +14,17 @@
 * [Session 10, Distilled](5th-nextgen/session-10/session-10-distilled.md)
 * [Session 10, Fluent](5th-nextgen/session-10/session-10-fluent.md)
 * [Session 11, Distilled](5th-nextgen/session-11/session-11-distilled.md)
-
 * [Session 11, Fluent](5th-nextgen/session-11/session-11-fluent.md)
+
+* [Session 12, Distilled](5th-nextgen/session-12/session-12-distilled.md)
+* [Session 12, Fluent](5th-nextgen/session-12/session-12-fluent.md)
+* [Session 13, Distilled](5th-nextgen/session-13/session-13-distilled.md)
+* [Session 13, Fluent](5th-nextgen/session-13/session-13-fluent.md)
+* [Session 14, Distilled](5th-nextgen/session-14/session-14-distilled.md)
+* [Session 14, Fluent](5th-nextgen/session-14/session-14-fluent.md)
+* [Session 15, Distilled](5th-nextgen/session-15/session-15-distilled.md)
+* [Session 15, Fluent](5th-nextgen/session-15/session-15-fluent.md)
+* [Session 16, Distilled](5th-nextgen/session-16/session-16-distilled.md)
+* [Session 16, Fluent](5th-nextgen/session-16/session-16-fluent.md)
+* [Session 17, Distilled](5th-nextgen/session-17/session-17-distilled.md)
+* [Session 17, Fluent](5th-nextgen/session-17/session-17-fluent.md)
