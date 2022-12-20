@@ -115,6 +115,7 @@ names made of byte sequences that are not valid in any sensible encoding scheme,
 and cannot be decoded to str.
 
 **Example:**
+```python
 >>> os.listdir('.')
 ['abc.txt', 'digits-of-π.txt']
 >>> os.listdir(b'.')
