@@ -36,8 +36,8 @@ We call this system IASCII_2.
 
 **Is IASCII_2 suitable?**
 
-*‌Although this new system covers more characters, But it still doesn't cover the number of characters we expect!
-*‌In addition, there is another concern. In the previous system, we used 1 byte for each character,
++ Although this new system covers more characters, But it still doesn't cover the number of characters we expect!
+* In addition, there is another concern. In the previous system, we used 1 byte for each character,
   but in the new system, we use 2 bytes for each character.
   
 
