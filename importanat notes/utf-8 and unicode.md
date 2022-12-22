@@ -16,7 +16,7 @@ To have a character in the computer, we want to create a system. In the first st
 
 We call this system IASCII_1.
 
-But this system has a problem. With 128 characters, we cannot cover many other characters.
+But this system has a problem. With 128 characters, we can not cover many other characters.
 (assuming it only covers Persian characters and does not cover English characters)
 To improve IASCII_1, we are going to create a new version of IASCII_1.
 
@@ -43,7 +43,7 @@ We call this system IASCII_2.
 
 How to solve the problem of IASCII_2? We need to create a new system.
 
-Let's jump to create it.
+Let's jump to do it.
 
 
 ### Unirahimicode
