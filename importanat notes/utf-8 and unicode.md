@@ -37,6 +37,7 @@ We call this system IASCII_2.
 **Is IASCII_2 suitable?**
 
 *‌ Although this new system covers more characters, But it still doesn't cover the number of characters we expect!
+
 *‌ In addition, there is another concern. In the previous system, we used 1 byte for each character,
   but in the new system, we use 2 bytes for each character.
   
@@ -117,46 +118,81 @@ Now let's introduce binary decimal and hexadecimal numbers.
 
 ### Decimal
 0
+
 1
+
 2
+
 3
+
 ...
+
 9
+
 1 0
+
 1 1
+
 1 2
+
 ...
+
 2 0
+
 2 1
-2 2
+
 ...
 
 ### Binary
 0
+
 1
+
 1 0
-1 1 
+
+1 1
+
 1 0 0
+
 ...
 
 ### Hexadecimal
 0
+
 1
+
 2
+
 ...
+
 9
+
 A
+
 B
+
 ...
+
 F
+
 1 0
+
 1 1
+
 1 2
+
 1 3
+
 ...
+
 1 F
+
 2 0
+
 2 1
+
 ...
-2 F 
+
+2 F
+
 ...
