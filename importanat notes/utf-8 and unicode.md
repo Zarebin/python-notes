@@ -7,7 +7,6 @@ To have a character in the computer, we want to create a system. In the first st
 ‍‍
     01001000 10001110 01000000 0111101 (Each 8 bits is called a byte) 
     2*2*2...*2 ?= 256! (Each bit has two states)
-
     00000000 char0
     00000001 char1
     00000010 char2
