@@ -4,8 +4,9 @@ To understand Unicode and UTF-8 easily, we want to go step by step and illustrat
 ### IASCII_1
 
 To have a character in the computer, we want to create a system. In the first step, we implement the following system:
-‍‍
-    01001000 10001110 01000000 0111101 (Each 8 bits is called a byte) 
+
+
+    ‍‍01001000 10001110 01000000 0111101 (Each 8 bits is called a byte) 
     2*2*2...*2 ?= 256! (Each bit has two states)
     00000000 char0
     00000001 char1
