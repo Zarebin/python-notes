@@ -2,7 +2,7 @@
 Methods for Containers:
 
 | Method                              | Description                    |
-| ----------------------------------- | : --------------------------- :|
+| ----------------------------------- | ---------------------------    |
 | `__len__(self)`                     | Returns the length of self     |
 | `__getitem__(self, key)`            | Returns `self [key]`           |
 | `__setitem__(self, key, value)`     | Sets `self [key] = value`      |
@@ -55,7 +55,7 @@ _______
 Methods for Attribute Access:
 
 | Method                               | Description                                                                      |
-| ------------------------------------ | ------------------------------------------------------------------------------- :|
+| ------------------------------------ | -------------------------------------------------------------------------------  |
 | `__getattribute__(self, name)`       | Returns the attribute `self.name`                                                |
 | `__getattr__(self, name`             | Returns the attribute `self.name` if it's not found through `__getattribute__`   |
 | `__setattr__(self, name, value)`     | Sets the attribute `self.name = value`                                           |
